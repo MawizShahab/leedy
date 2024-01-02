@@ -583,8 +583,7 @@ footer.footer-bottom .text {
   display: none;
 }
 
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 520px) and (max-width: 768px) {
   .header-container {
     padding: 56px;
   }
@@ -767,7 +766,7 @@ footer.footer-bottom .text {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .header-container {
     padding: 20px 35px;
   }
@@ -785,7 +784,7 @@ footer.footer-bottom .text {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    gap: 58px;
+    gap: 25px;
   }
 
   header.header .number {
