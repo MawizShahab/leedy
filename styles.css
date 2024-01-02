@@ -528,7 +528,7 @@ footer.footer-main-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: -10px;
+  gap: 20px;
 }
 
 p.no-of-reviews {
@@ -581,6 +581,32 @@ footer.footer-bottom .text {
 
 .mobile {
   display: none;
+}
+
+.white-star {
+  color: white;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social a i {
+  color: #000;
+  font-size: 40px;
+  padding: 15px;
+  background: #46ade1;
+  border-radius: 10px;
+}
+
+.stars-container {
+  display: flex;
+  gap: 10px;
+}
+
+.stars-container i {
+  font-size: 40px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 768px) {
@@ -744,7 +770,7 @@ footer.footer-bottom .text {
   }
 
   .footer-content-container {
-    padding: 50px 50px 50px 50px;
+    padding: 50px 25px 50px 50px;
   }
 
   .clinic-name p,
@@ -1052,7 +1078,6 @@ footer.footer-bottom .text {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 20px !important;
   }
 
   .footer-content-container .content,
