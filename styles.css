@@ -905,6 +905,10 @@ footer.footer-bottom .text {
     display: none;
   }
 
+  .mobile {
+    display: block !important;
+  }
+
   .surgical-main .heading {
     font-size: 28.5px;
     text-align: center;
