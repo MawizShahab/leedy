@@ -67,7 +67,7 @@ section.hero-content-container {
   /* margin: auto;
   width: 1196px; */
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -616,6 +616,12 @@ footer.footer-bottom .text {
 
 img.cpsi {
   height: 190px;
+  border: 3px solid #ababab;
+  object-fit: cover;
+}
+
+section.hero-content-container .links-container {
+  margin-top: 100px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 768px) {
@@ -1097,5 +1103,11 @@ img.cpsi {
 
   img.cpsi {
     height: 122px;
+    border: 2px solid #ababab;
+    object-fit: cover;
+  }
+
+  section.hero-content-container .links-container {
+    margin-top: 50px;
   }
 }
