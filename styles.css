@@ -609,6 +609,15 @@ footer.footer-bottom .text {
   font-size: 40px;
 }
 
+.profile-details .profile img {
+  max-width: 190px;
+  border-radius: 50%;
+}
+
+img.cpsi {
+  height: 190px;
+}
+
 @media screen and (min-width: 520px) and (max-width: 768px) {
   .header-container {
     padding: 56px;
@@ -1084,5 +1093,9 @@ footer.footer-bottom .text {
   .address {
     justify-content: center;
     align-items: center;
+  }
+
+  img.cpsi {
+    height: 122px;
   }
 }
